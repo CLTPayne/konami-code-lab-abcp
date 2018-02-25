@@ -4,7 +4,7 @@ function init() {
 let body = document.querySelector('body')
 body.addEventListener('keydown', function(e) {
   const key = parseInt(e.detail);
-  if (key === code) {
+  if (key === parseInt(code.detail)) {
       alert('Congratulations!')}
   } ) }
 
