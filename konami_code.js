@@ -12,4 +12,4 @@ body.addEventListener('keydown', function(e) {
       index = 0;}
   } else {
     index = 0}
-  } ) }
+  } ); }
